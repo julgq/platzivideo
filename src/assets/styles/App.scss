@@ -1,9 +1,12 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
-    margin: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:#8f57fd;
+  margin: 0;
+  font-family: $theme-font;
+  background: $main-color;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
